@@ -59,6 +59,17 @@ POPS （peta OPS）：每秒1千万亿次运算
 2019	思元270 	云	MLU270-S4，MLU270-F4  
            思元220	边	MLU220-M，MLU220-SOM  
 2021	思元290	云	MLU290-M5，MLU-X1000
+
+| Type                    | Bits | Alias Name            | Notes           |
+| ----------------------- | ---- | --------------------- | --------------- |
+| `char`, `uchar`         | 8    | `int8_t`, `uint8_t`   |                 |
+| `short`, `ushort`       | 16   | `int16_t`, `uint16_t` |                 |
+| `int`, `uint`           | 32   | `int32_t`, `uint32_t` |                 |
+| `long`, `ulong`         | 64   | `int64_t`, `uint64_t` |                 |
+| `longlong`, `ulonglong` | 64   | `int64_t`, `uint64_t` |                 |
+| `half`                  | 16   | `fp16`                | BF20 in T-modes |
+| `float`                 | 32   | `fp32`                |                 |
+
 ## 4. 智能芯片应用
 金融
 医疗
