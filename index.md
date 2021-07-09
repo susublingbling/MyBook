@@ -67,6 +67,13 @@ POPS （peta OPS）：每秒1千万亿次运算
 | --- | ---| --- |
 | 2021 | BI | 训练 |
 
+#### 芯片对比
+- 训练
+| 芯片 | 工艺 | 性能 | 功耗 | 内存带宽 |
+| --- | --- | --- | --- | --- |
+| 寒武纪 思元290 | 7nm |  1024 TOPS@INT4, 512 TOPS@INT8, 256 TOPS@INT16, 64 TOPS@CINT32| 350W | 1228 GB/s |
+| 天数智芯 BI | TSMC7nm CoWos | 295 TOPS@INT8 , 147 TOPS@INT16, 37 TOPS@INT32, 147 TFLOPS @FP16/BF16, 37 FTOPS@FP32 |
+
 ## 4. 智能芯片应用
 金融  
 医疗  
