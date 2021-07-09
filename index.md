@@ -30,15 +30,15 @@ POPS （peta OPS）：每秒1千万亿次运算
  >更进一步可以放弃冯诺依曼架构，提出了类脑芯片架构  
 
 ### 2.2 芯片趋势
-- 通用芯片 GPU/CPU  
+1. 通用芯片 GPU/CPU  
  + 新兴市场，算法多变 
  + 训练 
  + 云端 
-- 专用芯片 TPU(ASIC) 
+2. 专用芯片 TPU(ASIC) 
  + 成熟市场，算法固定 
  + 推理 
  + 边缘和端侧 
-- chiplet技术应用 
+3. chiplet技术应用 
 
 ## 3. 芯片行业
 ### 3.1 芯片行业趋势
@@ -73,7 +73,7 @@ POPS （peta OPS）：每秒1千万亿次运算
 | 芯片 | 工艺 | 性能 | 功耗 | 内存带宽 |
 | --- | --- | --- | --- | --- |
 | 寒武纪 思元290 | 7nm |  1024 TOPS@INT4, 512 TOPS@INT8, 256 TOPS@INT16, 64 TOPS@CINT32| 350W | 1228 GB/s |
-| 天数智芯 BI | TSMC7nm CoWos | 295 TOPS@INT8 , 147 TOPS@INT16, 37 TOPS@INT32, 147 TFLOPS @FP16/BF16, 37 FTOPS@FP32 |
+| 天数智芯 BI | TSMC7nm CoWos | 295 TOPS@INT8 , 147 TOPS@INT16, 37 TOPS@INT32, 147 TFLOPS @FP16/BF16, 37 FTOPS@FP32 | 300W | 1.2 TB/s |
 
 ## 4. 智能芯片应用
 金融  
