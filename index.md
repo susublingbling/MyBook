@@ -60,7 +60,7 @@ POPS （peta OPS）：每秒1千万亿次运算
            思元220	边	MLU220-M，MLU220-SOM  
 2021	思元290	云	MLU290-M5，MLU-X1000
 
-| Type                    | Bits | Alias Name            | Notes           |
+| 年份                    | 芯片 | 场景            | 产品           |
 | ----------------------- | ---- | --------------------- | --------------- |
 | `char`, `uchar`         | 8    | `int8_t`, `uint8_t`   |                 |
 | `short`, `ushort`       | 16   | `int16_t`, `uint16_t` |                 |
