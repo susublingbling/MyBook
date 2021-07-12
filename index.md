@@ -91,7 +91,8 @@ POPS （peta OPS）：每秒1千万亿次运算
 - 训练  
 
 | 芯片 | 工艺 | 性能 | 功耗 | 内存带宽 |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
+| NVIDIA A100 |  | 1248 TOPS@INT4, 624 TOPS@INT8, 312 TFLOPS@FP16/BF16, 156 @FP32 | 250W | 1555 GB/s |
 | 寒武纪 思元290 | 7nm |  1024 TOPS@INT4, 512 TOPS@INT8, 256 TOPS@INT16, 64 TOPS@CINT32| 350W | 1228 GB/s |
 | 天数智芯 BI | TSMC7nm CoWos | 295 TOPS@INT8 , 147 TOPS@INT16, 37 TOPS@INT32, 147 TFLOPS @FP16/BF16, 37 TFLOPS@FP32 | 300W | 1.2 TB/s |
 | 燧元 云燧2.0 | 12nm | 320 TOPS@INT8, 160 TFLOPS@FP16/BF16, 160 TFLOPS@TF32, 40 TFLOPS@FP32 | 300W | 1.8 TB/s |
